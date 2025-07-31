@@ -42,3 +42,17 @@
   margin: 0 !important;
 }
 */
+
+.rdp-button:hover:not([disabled]):not(.rdp-day_selected) {
+  background-color: rgb(198 153 99) !important; /* Tailwind's bg-accent-400 fallback */
+  color: white;
+}
+
+select.rdp-dropdown:focus-visible {
+  background-color: rgb(198 153 99);
+  opacity: 1;
+}
+
+.rdp-day_selected, .rdp-day_selected:hover {
+  background-color: rgb(198 153 99) !important;
+}
