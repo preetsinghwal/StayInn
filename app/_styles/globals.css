@@ -56,3 +56,11 @@ select.rdp-dropdown:focus-visible {
 .rdp-day_selected, .rdp-day_selected:hover {
   background-color: rgb(198 153 99) !important;
 }
+
+.rdp-month {
+  margin: 0px !important;
+}
+
+.rdp-month:first-child {
+  border-right: 1px solid rgb(44 61 79);
+}
